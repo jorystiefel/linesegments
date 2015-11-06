@@ -12,6 +12,11 @@ struct LineSegment {
     var p1: CGPoint
     var p2: CGPoint
     
+    init(_ p1: CGPoint, _ p2: CGPoint) {
+        self.p1 = p1
+        self.p2 = p2
+    }
+    
     func midpoint() -> CGPoint {
         let x = (p1.x + p2.x) / 2
         let y = (p1.y + p2.y) / 2
