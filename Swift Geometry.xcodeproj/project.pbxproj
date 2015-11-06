@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C85E95E1BED05F5003DA520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85E95D1BED05F5003DA520 /* AppDelegate.swift */; };
+		0C85E9601BED05F5003DA520 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85E95F1BED05F5003DA520 /* ViewController.swift */; };
+		0C85E9621BED05F6003DA520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C85E9611BED05F6003DA520 /* Assets.xcassets */; };
+		0C85E9651BED05F6003DA520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C85E9631BED05F6003DA520 /* Main.storyboard */; };
+		0C85E9701BED05F6003DA520 /* Swift_GeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85E96F1BED05F6003DA520 /* Swift_GeometryTests.swift */; };
+		0C85E97B1BED05F6003DA520 /* Swift_GeometryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85E97A1BED05F6003DA520 /* Swift_GeometryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C85E96C1BED05F6003DA520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C85E9521BED05F5003DA520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C85E9591BED05F5003DA520;
+			remoteInfo = "Swift Geometry";
+		};
+		0C85E9771BED05F6003DA520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C85E9521BED05F5003DA520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C85E9591BED05F5003DA520;
+			remoteInfo = "Swift Geometry";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C85E95A1BED05F5003DA520 /* Swift Geometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Geometry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C85E95D1BED05F5003DA520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C85E95F1BED05F5003DA520 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C85E9611BED05F6003DA520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C85E9641BED05F6003DA520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C85E9661BED05F6003DA520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C85E96B1BED05F6003DA520 /* Swift GeometryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift GeometryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C85E96F1BED05F6003DA520 /* Swift_GeometryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_GeometryTests.swift; sourceTree = "<group>"; };
+		0C85E9711BED05F6003DA520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C85E9761BED05F6003DA520 /* Swift GeometryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift GeometryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C85E97A1BED05F6003DA520 /* Swift_GeometryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_GeometryUITests.swift; sourceTree = "<group>"; };
+		0C85E97C1BED05F6003DA520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C85E9571BED05F5003DA520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C85E9681BED05F6003DA520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C85E9731BED05F6003DA520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C85E9511BED05F5003DA520 = {
+			isa = PBXGroup;
+			children = (
+				0C85E95C1BED05F5003DA520 /* Swift Geometry */,
+				0C85E96E1BED05F6003DA520 /* Swift GeometryTests */,
+				0C85E9791BED05F6003DA520 /* Swift GeometryUITests */,
+				0C85E95B1BED05F5003DA520 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C85E95B1BED05F5003DA520 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C85E95A1BED05F5003DA520 /* Swift Geometry.app */,
+				0C85E96B1BED05F6003DA520 /* Swift GeometryTests.xctest */,
+				0C85E9761BED05F6003DA520 /* Swift GeometryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C85E95C1BED05F5003DA520 /* Swift Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				0C85E95D1BED05F5003DA520 /* AppDelegate.swift */,
+				0C85E95F1BED05F5003DA520 /* ViewController.swift */,
+				0C85E9611BED05F6003DA520 /* Assets.xcassets */,
+				0C85E9631BED05F6003DA520 /* Main.storyboard */,
+				0C85E9661BED05F6003DA520 /* Info.plist */,
+			);
+			path = "Swift Geometry";
+			sourceTree = "<group>";
+		};
+		0C85E96E1BED05F6003DA520 /* Swift GeometryTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C85E96F1BED05F6003DA520 /* Swift_GeometryTests.swift */,
+				0C85E9711BED05F6003DA520 /* Info.plist */,
+			);
+			path = "Swift GeometryTests";
+			sourceTree = "<group>";
+		};
+		0C85E9791BED05F6003DA520 /* Swift GeometryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C85E97A1BED05F6003DA520 /* Swift_GeometryUITests.swift */,
+				0C85E97C1BED05F6003DA520 /* Info.plist */,
+			);
+			path = "Swift GeometryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C85E9591BED05F5003DA520 /* Swift Geometry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C85E97F1BED05F6003DA520 /* Build configuration list for PBXNativeTarget "Swift Geometry" */;
+			buildPhases = (
+				0C85E9561BED05F5003DA520 /* Sources */,
+				0C85E9571BED05F5003DA520 /* Frameworks */,
+				0C85E9581BED05F5003DA520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift Geometry";
+			productName = "Swift Geometry";
+			productReference = 0C85E95A1BED05F5003DA520 /* Swift Geometry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C85E96A1BED05F6003DA520 /* Swift GeometryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C85E9821BED05F6003DA520 /* Build configuration list for PBXNativeTarget "Swift GeometryTests" */;
+			buildPhases = (
+				0C85E9671BED05F6003DA520 /* Sources */,
+				0C85E9681BED05F6003DA520 /* Frameworks */,
+				0C85E9691BED05F6003DA520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C85E96D1BED05F6003DA520 /* PBXTargetDependency */,
+			);
+			name = "Swift GeometryTests";
+			productName = "Swift GeometryTests";
+			productReference = 0C85E96B1BED05F6003DA520 /* Swift GeometryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C85E9751BED05F6003DA520 /* Swift GeometryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C85E9851BED05F6003DA520 /* Build configuration list for PBXNativeTarget "Swift GeometryUITests" */;
+			buildPhases = (
+				0C85E9721BED05F6003DA520 /* Sources */,
+				0C85E9731BED05F6003DA520 /* Frameworks */,
+				0C85E9741BED05F6003DA520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C85E9781BED05F6003DA520 /* PBXTargetDependency */,
+			);
+			name = "Swift GeometryUITests";
+			productName = "Swift GeometryUITests";
+			productReference = 0C85E9761BED05F6003DA520 /* Swift GeometryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C85E9521BED05F5003DA520 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jory Stiefel";
+				TargetAttributes = {
+					0C85E9591BED05F5003DA520 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					0C85E96A1BED05F6003DA520 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0C85E9591BED05F5003DA520;
+					};
+					0C85E9751BED05F6003DA520 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0C85E9591BED05F5003DA520;
+					};
+				};
+			};
+			buildConfigurationList = 0C85E9551BED05F5003DA520 /* Build configuration list for PBXProject "Swift Geometry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C85E9511BED05F5003DA520;
+			productRefGroup = 0C85E95B1BED05F5003DA520 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C85E9591BED05F5003DA520 /* Swift Geometry */,
+				0C85E96A1BED05F6003DA520 /* Swift GeometryTests */,
+				0C85E9751BED05F6003DA520 /* Swift GeometryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C85E9581BED05F5003DA520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C85E9621BED05F6003DA520 /* Assets.xcassets in Resources */,
+				0C85E9651BED05F6003DA520 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C85E9691BED05F6003DA520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C85E9741BED05F6003DA520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C85E9561BED05F5003DA520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C85E9601BED05F5003DA520 /* ViewController.swift in Sources */,
+				0C85E95E1BED05F5003DA520 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C85E9671BED05F6003DA520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C85E9701BED05F6003DA520 /* Swift_GeometryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C85E9721BED05F6003DA520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C85E97B1BED05F6003DA520 /* Swift_GeometryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C85E96D1BED05F6003DA520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C85E9591BED05F5003DA520 /* Swift Geometry */;
+			targetProxy = 0C85E96C1BED05F6003DA520 /* PBXContainerItemProxy */;
+		};
+		0C85E9781BED05F6003DA520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C85E9591BED05F5003DA520 /* Swift Geometry */;
+			targetProxy = 0C85E9771BED05F6003DA520 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C85E9631BED05F6003DA520 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C85E9641BED05F6003DA520 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C85E97D1BED05F6003DA520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C85E97E1BED05F6003DA520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0C85E9801BED05F6003DA520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Swift Geometry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "stiefeldigital.Swift-Geometry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C85E9811BED05F6003DA520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Swift Geometry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "stiefeldigital.Swift-Geometry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0C85E9831BED05F6003DA520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Swift GeometryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "stiefeldigital.Swift-GeometryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Geometry.app/Contents/MacOS/Swift Geometry";
+			};
+			name = Debug;
+		};
+		0C85E9841BED05F6003DA520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Swift GeometryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "stiefeldigital.Swift-GeometryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Geometry.app/Contents/MacOS/Swift Geometry";
+			};
+			name = Release;
+		};
+		0C85E9861BED05F6003DA520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Swift GeometryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "stiefeldigital.Swift-GeometryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift Geometry";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0C85E9871BED05F6003DA520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Swift GeometryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "stiefeldigital.Swift-GeometryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift Geometry";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C85E9551BED05F5003DA520 /* Build configuration list for PBXProject "Swift Geometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C85E97D1BED05F6003DA520 /* Debug */,
+				0C85E97E1BED05F6003DA520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C85E97F1BED05F6003DA520 /* Build configuration list for PBXNativeTarget "Swift Geometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C85E9801BED05F6003DA520 /* Debug */,
+				0C85E9811BED05F6003DA520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0C85E9821BED05F6003DA520 /* Build configuration list for PBXNativeTarget "Swift GeometryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C85E9831BED05F6003DA520 /* Debug */,
+				0C85E9841BED05F6003DA520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0C85E9851BED05F6003DA520 /* Build configuration list for PBXNativeTarget "Swift GeometryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C85E9861BED05F6003DA520 /* Debug */,
+				0C85E9871BED05F6003DA520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C85E9521BED05F5003DA520 /* Project object */;
+}
