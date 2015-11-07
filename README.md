@@ -1,4 +1,6 @@
-#linesegments
+#LineSegments
+
+LineSegments is a struct and set of functions for computation of useful geometerical properties of line segments. 
 
 ## struct LineSegment
 
@@ -9,10 +11,10 @@ Compute the midpoint of the line segment
 Compute the slope of the line segment
 
 ####length()
-Compute the length/distance between p1 and p2
+Compute the length/distance between `p1` and `p2`
 
 ####interpolatePointAtT(t: CGFloat)
-Compute a point on the line segment at time `t` where `t` is between `0.0` and `1.0`
+Compute a point on the line segment at time `t` where `0.0 <= t <= 1.0`
 
 ####bounds()
 Compute the bounding rectangle of the line segment as a `CGRect`
