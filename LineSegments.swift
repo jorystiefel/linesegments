@@ -64,17 +64,17 @@ struct LineSegment {
         return result
     }
     
-    func translate(x x: CGFloat, y: CGFloat) -> LineSegment {
+    func translate(dX dX: CGFloat, dY: CGFloat) -> LineSegment {
         var newSegment = self;
-        newSegment.translateInPlace(x: x, y: y)
+        newSegment.translateInPlace(dX: dX, dY: dY)
         return newSegment;
     }
     
-    mutating func translateInPlace(x x: CGFloat, y: CGFloat) {
-        p1.x += x;
-        p1.y += y;
-        p2.x += x;
-        p2.y += y;
+    mutating func translateInPlace(dX dX: CGFloat, dY: CGFloat) {
+        p1.x += dX;
+        p1.y += dY;
+        p2.x += dX;
+        p2.y += dY;
     }
     
 }
