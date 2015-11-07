@@ -7,8 +7,8 @@ LineSegments is a struct and set of functions for computation of useful geometer
 ####midpoint()
 Compute the midpoint of the line segment
 
-####slope()
-Compute the slope of the line segment
+####angle()
+Compute the angle of the line segment against the x-axis
 
 ####length()
 Compute the length/distance between `p1` and `p2`

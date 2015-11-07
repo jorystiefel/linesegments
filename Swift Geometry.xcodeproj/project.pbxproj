@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C8015CE1BEE89FC0030BCD5 /* Swift_LineSegmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8015CD1BEE89FC0030BCD5 /* Swift_LineSegmentTests.swift */; };
 		0C85E95E1BED05F5003DA520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85E95D1BED05F5003DA520 /* AppDelegate.swift */; };
 		0C85E9601BED05F5003DA520 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85E95F1BED05F5003DA520 /* CanvasViewController.swift */; };
 		0C85E9621BED05F6003DA520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C85E9611BED05F6003DA520 /* Assets.xcassets */; };
 		0C85E9651BED05F6003DA520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C85E9631BED05F6003DA520 /* Main.storyboard */; };
-		0C85E9701BED05F6003DA520 /* Swift_GeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85E96F1BED05F6003DA520 /* Swift_GeometryTests.swift */; };
 		0CE12A931BED9FFE0020C024 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE12A921BED9FFE0020C024 /* CanvasView.swift */; };
 		0CE12A961BEDA00F0020C024 /* LineSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE12A951BEDA00F0020C024 /* LineSegments.swift */; };
 		0CE12A981BEDA11E0020C024 /* CanvasDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE12A971BEDA11E0020C024 /* CanvasDataManager.swift */; };
@@ -25,16 +25,10 @@
 			remoteGlobalIDString = 0C85E9591BED05F5003DA520;
 			remoteInfo = "Swift Geometry";
 		};
-		0C85E9771BED05F6003DA520 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0C85E9521BED05F5003DA520 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C85E9591BED05F5003DA520;
-			remoteInfo = "Swift Geometry";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C8015CD1BEE89FC0030BCD5 /* Swift_LineSegmentTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift_LineSegmentTests.swift; sourceTree = "<group>"; };
 		0C85E95A1BED05F5003DA520 /* Swift Geometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Geometry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C85E95D1BED05F5003DA520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C85E95F1BED05F5003DA520 /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
@@ -42,9 +36,7 @@
 		0C85E9641BED05F6003DA520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C85E9661BED05F6003DA520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C85E96B1BED05F6003DA520 /* Swift GeometryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift GeometryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C85E96F1BED05F6003DA520 /* Swift_GeometryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_GeometryTests.swift; sourceTree = "<group>"; };
 		0C85E9711BED05F6003DA520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C85E9761BED05F6003DA520 /* Swift GeometryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift GeometryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CE12A921BED9FFE0020C024 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		0CE12A951BEDA00F0020C024 /* LineSegments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineSegments.swift; sourceTree = "<group>"; };
 		0CE12A971BEDA11E0020C024 /* CanvasDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasDataManager.swift; sourceTree = "<group>"; };
@@ -59,13 +51,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0C85E9681BED05F6003DA520 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C85E9731BED05F6003DA520 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,7 +75,6 @@
 			children = (
 				0C85E95A1BED05F5003DA520 /* Swift Geometry.app */,
 				0C85E96B1BED05F6003DA520 /* Swift GeometryTests.xctest */,
-				0C85E9761BED05F6003DA520 /* Swift GeometryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,8 +96,8 @@
 		0C85E96E1BED05F6003DA520 /* Swift GeometryTests */ = {
 			isa = PBXGroup;
 			children = (
-				0C85E96F1BED05F6003DA520 /* Swift_GeometryTests.swift */,
 				0C85E9711BED05F6003DA520 /* Info.plist */,
+				0C8015CD1BEE89FC0030BCD5 /* Swift_LineSegmentTests.swift */,
 			);
 			path = "Swift GeometryTests";
 			sourceTree = "<group>";
@@ -164,24 +148,6 @@
 			productReference = 0C85E96B1BED05F6003DA520 /* Swift GeometryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0C85E9751BED05F6003DA520 /* Swift GeometryUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C85E9851BED05F6003DA520 /* Build configuration list for PBXNativeTarget "Swift GeometryUITests" */;
-			buildPhases = (
-				0C85E9721BED05F6003DA520 /* Sources */,
-				0C85E9731BED05F6003DA520 /* Frameworks */,
-				0C85E9741BED05F6003DA520 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0C85E9781BED05F6003DA520 /* PBXTargetDependency */,
-			);
-			name = "Swift GeometryUITests";
-			productName = "Swift GeometryUITests";
-			productReference = 0C85E9761BED05F6003DA520 /* Swift GeometryUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,10 +162,6 @@
 						CreatedOnToolsVersion = 7.2;
 					};
 					0C85E96A1BED05F6003DA520 = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 0C85E9591BED05F5003DA520;
-					};
-					0C85E9751BED05F6003DA520 = {
 						CreatedOnToolsVersion = 7.2;
 						TestTargetID = 0C85E9591BED05F5003DA520;
 					};
@@ -220,7 +182,6 @@
 			targets = (
 				0C85E9591BED05F5003DA520 /* Swift Geometry */,
 				0C85E96A1BED05F6003DA520 /* Swift GeometryTests */,
-				0C85E9751BED05F6003DA520 /* Swift GeometryUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,13 +197,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0C85E9691BED05F6003DA520 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C85E9741BED05F6003DA520 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,14 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C85E9701BED05F6003DA520 /* Swift_GeometryTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C85E9721BED05F6003DA520 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				0C8015CE1BEE89FC0030BCD5 /* Swift_LineSegmentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +233,6 @@
 			isa = PBXTargetDependency;
 			target = 0C85E9591BED05F5003DA520 /* Swift Geometry */;
 			targetProxy = 0C85E96C1BED05F6003DA520 /* PBXContainerItemProxy */;
-		};
-		0C85E9781BED05F6003DA520 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0C85E9591BED05F5003DA520 /* Swift Geometry */;
-			targetProxy = 0C85E9771BED05F6003DA520 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -436,32 +378,6 @@
 			};
 			name = Release;
 		};
-		0C85E9861BED05F6003DA520 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Swift GeometryUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "stiefeldigital.Swift-GeometryUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Swift Geometry";
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		0C85E9871BED05F6003DA520 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Swift GeometryUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "stiefeldigital.Swift-GeometryUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Swift Geometry";
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -488,15 +404,6 @@
 			buildConfigurations = (
 				0C85E9831BED05F6003DA520 /* Debug */,
 				0C85E9841BED05F6003DA520 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0C85E9851BED05F6003DA520 /* Build configuration list for PBXNativeTarget "Swift GeometryUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C85E9861BED05F6003DA520 /* Debug */,
-				0C85E9871BED05F6003DA520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

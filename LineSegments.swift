@@ -23,7 +23,7 @@ struct LineSegment {
         return CGPoint(x: x, y: y)
     }
     
-    func slope() -> CGFloat {
+    func angle() -> CGFloat {
         return atan2(p2.y - p1.y, p2.x - p1.x)
     }
     
