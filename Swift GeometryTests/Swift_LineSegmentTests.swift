@@ -65,10 +65,16 @@ class Swift_LineSegmentTests: XCTestCase {
     }
     
     func testIntersectionPointWithLineSegment() {
+        // test intersection
         let segment1 = LineSegment(CGPoint(x: 0.0, y: 0.0), CGPoint(x: 10.0, y: 10.0))
         let segment2 = LineSegment(CGPoint(x: 0.0, y: 10.0), CGPoint(x: 10.0, y: 0.0))
         
-        XCTAssert(segment1.intersectionPointWithLineSegment(segment2)! == CGPoint(x: 5.0, y: 5.0))
+        XCTAssert(segment1.intersectionPointWithLineSegment(segment2)! == CGPoint(x: 5.0, y: 5.0), "Lines should intersection at (5.0, 5.0)")
+        
+        // test do not intersect
+        let segment3 = LineSegment(CGPoint(x: 20.0, y: 20.0), CGPoint(x: 30.0, y: 30.0))
+        
+        XCTAssert(segment1.intersectionPointWithLineSegment(segment3) == nil, "Lines should not intersection, expected nil")
     }
     
 }
