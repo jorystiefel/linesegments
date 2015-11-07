@@ -10,9 +10,12 @@ import Cocoa
 
 class CanvasViewController: NSViewController {
     
-    var testSegments: [LineSegment] = []
+    lazy var dataManager = {
+        return CanvasDataManager.sharedManager
+    }()
+    
     var startingPoint: CGPoint? = nil
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -30,8 +33,10 @@ class CanvasViewController: NSViewController {
         print("mousedown \(pt)")
         
         if let p1 = startingPoint {
-            testSegments.append(LineSegment(p1, pt));
+            dataManager.testSegments.append(LineSegment(p1, pt));
             startingPoint = nil
+            view.setNeedsDisplayInRect(view.bounds)
+            print("added segment")
         } else {
             startingPoint = pt
         }

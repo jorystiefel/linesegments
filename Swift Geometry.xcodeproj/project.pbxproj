@@ -15,6 +15,7 @@
 		0C85E97B1BED05F6003DA520 /* Swift_GeometryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85E97A1BED05F6003DA520 /* Swift_GeometryUITests.swift */; };
 		0CE12A931BED9FFE0020C024 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE12A921BED9FFE0020C024 /* CanvasView.swift */; };
 		0CE12A961BEDA00F0020C024 /* LineSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE12A951BEDA00F0020C024 /* LineSegments.swift */; };
+		0CE12A981BEDA11E0020C024 /* CanvasDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE12A971BEDA11E0020C024 /* CanvasDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0C85E97C1BED05F6003DA520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CE12A921BED9FFE0020C024 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		0CE12A951BEDA00F0020C024 /* LineSegments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineSegments.swift; sourceTree = "<group>"; };
+		0CE12A971BEDA11E0020C024 /* CanvasDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				0C85E95D1BED05F5003DA520 /* AppDelegate.swift */,
+				0CE12A971BEDA11E0020C024 /* CanvasDataManager.swift */,
 				0C85E95F1BED05F5003DA520 /* CanvasViewController.swift */,
 				0CE12A921BED9FFE0020C024 /* CanvasView.swift */,
 				0C85E9611BED05F6003DA520 /* Assets.xcassets */,
@@ -268,6 +271,7 @@
 			files = (
 				0C85E9601BED05F5003DA520 /* CanvasViewController.swift in Sources */,
 				0C85E95E1BED05F5003DA520 /* AppDelegate.swift in Sources */,
+				0CE12A981BEDA11E0020C024 /* CanvasDataManager.swift in Sources */,
 				0CE12A931BED9FFE0020C024 /* CanvasView.swift in Sources */,
 				0CE12A961BEDA00F0020C024 /* LineSegments.swift in Sources */,
 			);
