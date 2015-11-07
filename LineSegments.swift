@@ -78,8 +78,6 @@ struct LineSegment {
     }
     
     func intersectionPointWithLineSegment(segment: LineSegment) -> CGPoint? {
-        var result: CGPoint? = nil
-        
         let ua_t = (segment.p2.x - segment.p1.x) * (p1.y - segment.p1.y) - (segment.p2.y - segment.p1.y) * (p1.x - segment.p1.x)
         let ub_t = (p2.x - p1.x) * (p1.y - segment.p1.y) - (p2.y - p1.y) * (p1.x - segment.p1.x)
         let u_b = (segment.p2.y - segment.p1.y) * (p2.x - p1.x) - (segment.p2.x - segment.p1.x) * (p2.y - p1.y)
@@ -87,12 +85,12 @@ struct LineSegment {
             let ua = ua_t / u_b
             let ub = ub_t / u_b
             if (0 <= ua && ua <= 1 && 0 <= ub && ub <= 1) {
-                result = CGPoint( x: p1.x + ua * (p2.x - p1.x),
-                    y: p1.y + ua * (p2.y - p1.y))
+                return CGPoint(x: p1.x + ua * (p2.x - p1.x),
+                               y: p1.y + ua * (p2.y - p1.y))
             }
         }
         
-        return result
+        return nil
     }
 }
 
