@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0C85E95E1BED05F5003DA520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85E95D1BED05F5003DA520 /* AppDelegate.swift */; };
-		0C85E9601BED05F5003DA520 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85E95F1BED05F5003DA520 /* ViewController.swift */; };
+		0C85E9601BED05F5003DA520 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85E95F1BED05F5003DA520 /* CanvasViewController.swift */; };
 		0C85E9621BED05F6003DA520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C85E9611BED05F6003DA520 /* Assets.xcassets */; };
 		0C85E9651BED05F6003DA520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C85E9631BED05F6003DA520 /* Main.storyboard */; };
 		0C85E9701BED05F6003DA520 /* Swift_GeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85E96F1BED05F6003DA520 /* Swift_GeometryTests.swift */; };
 		0C85E97B1BED05F6003DA520 /* Swift_GeometryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85E97A1BED05F6003DA520 /* Swift_GeometryUITests.swift */; };
+		0CE12A931BED9FFE0020C024 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE12A921BED9FFE0020C024 /* CanvasView.swift */; };
+		0CE12A961BEDA00F0020C024 /* LineSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE12A951BEDA00F0020C024 /* LineSegments.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,7 @@
 /* Begin PBXFileReference section */
 		0C85E95A1BED05F5003DA520 /* Swift Geometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Geometry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C85E95D1BED05F5003DA520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C85E95F1BED05F5003DA520 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C85E95F1BED05F5003DA520 /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 		0C85E9611BED05F6003DA520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C85E9641BED05F6003DA520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C85E9661BED05F6003DA520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +47,8 @@
 		0C85E9761BED05F6003DA520 /* Swift GeometryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift GeometryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C85E97A1BED05F6003DA520 /* Swift_GeometryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_GeometryUITests.swift; sourceTree = "<group>"; };
 		0C85E97C1BED05F6003DA520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CE12A921BED9FFE0020C024 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		0CE12A951BEDA00F0020C024 /* LineSegments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineSegments.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 		0C85E9511BED05F5003DA520 = {
 			isa = PBXGroup;
 			children = (
+				0CE12A941BEDA0050020C024 /* Lib */,
 				0C85E95C1BED05F5003DA520 /* Swift Geometry */,
 				0C85E96E1BED05F6003DA520 /* Swift GeometryTests */,
 				0C85E9791BED05F6003DA520 /* Swift GeometryUITests */,
@@ -96,7 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				0C85E95D1BED05F5003DA520 /* AppDelegate.swift */,
-				0C85E95F1BED05F5003DA520 /* ViewController.swift */,
+				0C85E95F1BED05F5003DA520 /* CanvasViewController.swift */,
+				0CE12A921BED9FFE0020C024 /* CanvasView.swift */,
 				0C85E9611BED05F6003DA520 /* Assets.xcassets */,
 				0C85E9631BED05F6003DA520 /* Main.storyboard */,
 				0C85E9661BED05F6003DA520 /* Info.plist */,
@@ -120,6 +126,14 @@
 				0C85E97C1BED05F6003DA520 /* Info.plist */,
 			);
 			path = "Swift GeometryUITests";
+			sourceTree = "<group>";
+		};
+		0CE12A941BEDA0050020C024 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				0CE12A951BEDA00F0020C024 /* LineSegments.swift */,
+			);
+			name = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C85E9601BED05F5003DA520 /* ViewController.swift in Sources */,
+				0C85E9601BED05F5003DA520 /* CanvasViewController.swift in Sources */,
 				0C85E95E1BED05F5003DA520 /* AppDelegate.swift in Sources */,
+				0CE12A931BED9FFE0020C024 /* CanvasView.swift in Sources */,
+				0CE12A961BEDA00F0020C024 /* LineSegments.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +491,7 @@
 				0C85E9811BED05F6003DA520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C85E9821BED05F6003DA520 /* Build configuration list for PBXNativeTarget "Swift GeometryTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +500,7 @@
 				0C85E9841BED05F6003DA520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C85E9851BED05F6003DA520 /* Build configuration list for PBXNativeTarget "Swift GeometryUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +509,7 @@
 				0C85E9871BED05F6003DA520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
