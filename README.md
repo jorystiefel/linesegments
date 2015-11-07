@@ -29,9 +29,6 @@ Compute a `LineSegment` that is translated by dX, dY
 ####translateInPlace(dX: CGFloat, dY: CGFloat)
 Translate `self` by mutating `p1` and `p2` 
 
----
+####intersectionPointWithLineSegment(segment: LineSegment)
+Calculates the intersection `CGPoint?` of `self` and `segment`, or returns `nil` if the segments do not intersect
 
-## Auxiliary Functions
-
-####func intersectionOfLineSegments(segment1: LineSegment, segment2: LineSegment)
-Give two line segments, calculates the intersection `CGPoint?` of `segment1` and `segment2`, or returns `nil` if the segments do not intersect
