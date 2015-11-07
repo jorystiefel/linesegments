@@ -12,7 +12,6 @@
 		0C85E9621BED05F6003DA520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C85E9611BED05F6003DA520 /* Assets.xcassets */; };
 		0C85E9651BED05F6003DA520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C85E9631BED05F6003DA520 /* Main.storyboard */; };
 		0C85E9701BED05F6003DA520 /* Swift_GeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85E96F1BED05F6003DA520 /* Swift_GeometryTests.swift */; };
-		0C85E97B1BED05F6003DA520 /* Swift_GeometryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85E97A1BED05F6003DA520 /* Swift_GeometryUITests.swift */; };
 		0CE12A931BED9FFE0020C024 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE12A921BED9FFE0020C024 /* CanvasView.swift */; };
 		0CE12A961BEDA00F0020C024 /* LineSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE12A951BEDA00F0020C024 /* LineSegments.swift */; };
 		0CE12A981BEDA11E0020C024 /* CanvasDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE12A971BEDA11E0020C024 /* CanvasDataManager.swift */; };
@@ -46,8 +45,6 @@
 		0C85E96F1BED05F6003DA520 /* Swift_GeometryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_GeometryTests.swift; sourceTree = "<group>"; };
 		0C85E9711BED05F6003DA520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C85E9761BED05F6003DA520 /* Swift GeometryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift GeometryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C85E97A1BED05F6003DA520 /* Swift_GeometryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_GeometryUITests.swift; sourceTree = "<group>"; };
-		0C85E97C1BED05F6003DA520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CE12A921BED9FFE0020C024 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		0CE12A951BEDA00F0020C024 /* LineSegments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineSegments.swift; sourceTree = "<group>"; };
 		0CE12A971BEDA11E0020C024 /* CanvasDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasDataManager.swift; sourceTree = "<group>"; };
@@ -84,7 +81,6 @@
 				0CE12A941BEDA0050020C024 /* Lib */,
 				0C85E95C1BED05F5003DA520 /* Swift Geometry */,
 				0C85E96E1BED05F6003DA520 /* Swift GeometryTests */,
-				0C85E9791BED05F6003DA520 /* Swift GeometryUITests */,
 				0C85E95B1BED05F5003DA520 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,15 +116,6 @@
 				0C85E9711BED05F6003DA520 /* Info.plist */,
 			);
 			path = "Swift GeometryTests";
-			sourceTree = "<group>";
-		};
-		0C85E9791BED05F6003DA520 /* Swift GeometryUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0C85E97A1BED05F6003DA520 /* Swift_GeometryUITests.swift */,
-				0C85E97C1BED05F6003DA520 /* Info.plist */,
-			);
-			path = "Swift GeometryUITests";
 			sourceTree = "<group>";
 		};
 		0CE12A941BEDA0050020C024 /* Lib */ = {
@@ -289,7 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C85E97B1BED05F6003DA520 /* Swift_GeometryUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
