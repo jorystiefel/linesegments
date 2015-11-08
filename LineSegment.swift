@@ -1,5 +1,5 @@
 //
-//  LineSegments.swift
+//  LineSegment.swift
 //  Swift Geometry
 //
 //  Created by Jory Stiefel on 11/6/15.

@@ -13,7 +13,7 @@
 		0C85E9621BED05F6003DA520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C85E9611BED05F6003DA520 /* Assets.xcassets */; };
 		0C85E9651BED05F6003DA520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C85E9631BED05F6003DA520 /* Main.storyboard */; };
 		0CE12A931BED9FFE0020C024 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE12A921BED9FFE0020C024 /* CanvasView.swift */; };
-		0CE12A961BEDA00F0020C024 /* LineSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE12A951BEDA00F0020C024 /* LineSegments.swift */; };
+		0CE12A961BEDA00F0020C024 /* LineSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE12A951BEDA00F0020C024 /* LineSegment.swift */; };
 		0CE12A981BEDA11E0020C024 /* CanvasDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE12A971BEDA11E0020C024 /* CanvasDataManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +38,7 @@
 		0C85E96B1BED05F6003DA520 /* Swift GeometryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift GeometryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C85E9711BED05F6003DA520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CE12A921BED9FFE0020C024 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
-		0CE12A951BEDA00F0020C024 /* LineSegments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineSegments.swift; sourceTree = "<group>"; };
+		0CE12A951BEDA00F0020C024 /* LineSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineSegment.swift; sourceTree = "<group>"; };
 		0CE12A971BEDA11E0020C024 /* CanvasDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +105,7 @@
 		0CE12A941BEDA0050020C024 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				0CE12A951BEDA00F0020C024 /* LineSegments.swift */,
+				0CE12A951BEDA00F0020C024 /* LineSegment.swift */,
 			);
 			name = Lib;
 			sourceTree = "<group>";
@@ -214,7 +214,7 @@
 				0C85E95E1BED05F5003DA520 /* AppDelegate.swift in Sources */,
 				0CE12A981BEDA11E0020C024 /* CanvasDataManager.swift in Sources */,
 				0CE12A931BED9FFE0020C024 /* CanvasView.swift in Sources */,
-				0CE12A961BEDA00F0020C024 /* LineSegments.swift in Sources */,
+				0CE12A961BEDA00F0020C024 /* LineSegment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
