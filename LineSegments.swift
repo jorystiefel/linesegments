@@ -65,16 +65,16 @@ struct LineSegment {
     }
     
     func translate(dX dX: CGFloat, dY: CGFloat) -> LineSegment {
-        var newSegment = self;
+        var newSegment = self
         newSegment.translateInPlace(dX: dX, dY: dY)
-        return newSegment;
+        return newSegment
     }
     
     mutating func translateInPlace(dX dX: CGFloat, dY: CGFloat) {
-        p1.x += dX;
-        p1.y += dY;
-        p2.x += dX;
-        p2.y += dY;
+        p1.x += dX
+        p1.y += dY
+        p2.x += dX
+        p2.y += dY
     }
     
     func intersectionPointWithLineSegment(segment: LineSegment) -> CGPoint? {
