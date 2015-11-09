@@ -29,10 +29,10 @@ Compute a `LineSegment` that is translated by dX, dY
 ####translateInPlace(dX: CGFloat, dY: CGFloat)
 Translate `self` by mutating `p1` and `p2` 
 
-###rotate(radians: CGFloat, aboutPoint: CGPoint)
+####rotate(radians: CGFloat, aboutPoint: CGPoint)
 Compute a `LineSegment` that is rotated by `radians` around the point `aboutPoint`
 
-###rotateInPlace(radians: CGFloat, aboutPoint: CGPoint)
+####rotateInPlace(radians: CGFloat, aboutPoint: CGPoint)
 Rotate `self` by `radians` around the point `aboutPoint`
 
 ####intersectionPointWithLineSegment(segment: LineSegment)
