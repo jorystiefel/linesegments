@@ -64,17 +64,42 @@ struct LineSegment {
         return result
     }
     
+    mutating func translateInPlace(dX dX: CGFloat, dY: CGFloat) {
+        p1.x += dX
+        p1.y += dY
+        p2.x += dX
+        p2.y += dY
+    }
+    
     func translate(dX dX: CGFloat, dY: CGFloat) -> LineSegment {
         var newSegment = self
         newSegment.translateInPlace(dX: dX, dY: dY)
         return newSegment
     }
     
-    mutating func translateInPlace(dX dX: CGFloat, dY: CGFloat) {
-        p1.x += dX
-        p1.y += dY
-        p2.x += dX
-        p2.y += dY
+    mutating func rotateInPlace(radians radians: CGFloat, aboutPoint pivot: CGPoint) {
+        let s = sin(radians)
+        let c = cos(radians)
+        
+        p1.x -= pivot.x
+        p1.y -= pivot.y
+        var xnew = p1.x * c - p1.y * s
+        var ynew = p1.x * s + p1.y * c
+        p1.x = xnew + pivot.x
+        p1.y = ynew + pivot.y
+        
+        p2.x -= pivot.x
+        p2.y -= pivot.y
+        xnew = p2.x * c - p2.y * s
+        ynew = p2.x * s + p2.y * c
+        p2.x = xnew + pivot.x
+        p2.y = ynew + pivot.y
+    }
+    
+    func rotate(radians radians: CGFloat, aboutPoint pivot: CGPoint) -> LineSegment {
+        var newSegment = self
+        newSegment.rotateInPlace(radians: radians, aboutPoint: pivot)
+        return newSegment
     }
     
     func intersectionPointWithLineSegment(segment: LineSegment) -> CGPoint? {
