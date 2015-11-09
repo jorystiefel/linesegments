@@ -11,6 +11,8 @@ import Cocoa
 class CanvasDataManager {
     
     var testSegments: [LineSegment] = []
+    var activeSegment: LineSegment? = nil
+    var showMidpoints = false
     
     static let sharedManager = CanvasDataManager()
     
