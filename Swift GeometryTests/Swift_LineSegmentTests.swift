@@ -3,6 +3,13 @@ import XCTest
 
 class Swift_LineSegmentTests: XCTestCase {
     
+    func testEquality() {
+        let segment1 = LineSegment(CGPoint(x: 0.0, y: 0.0), CGPoint(x: 10.0, y: 10.0))
+        let segment2 = LineSegment(CGPoint(x: 0.0, y: 0.0), CGPoint(x: 10.0, y: 10.0))
+        
+        XCTAssert(segment1 == segment2)
+    }
+    
     func testMidpoint() {
         let segment = LineSegment(CGPoint(x: 0.0, y: 0.0), CGPoint(x: 10.0, y: 10.0))
         let actualMidpoint = CGPoint(x: 5.0, y: 5.0)

@@ -119,4 +119,9 @@ struct LineSegment {
     }
 }
 
+extension LineSegment: Equatable {}
+
+func ==(lhs: LineSegment, rhs: LineSegment) -> Bool {
+    return (lhs.p1 == rhs.p1) && (lhs.p2 == rhs.p2)
+}
 
